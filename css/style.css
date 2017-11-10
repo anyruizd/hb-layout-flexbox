@@ -1,7 +1,7 @@
 * {
     margin: 0;
-    padding: 0; 
-    box-sizing: border-box; 
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container{
@@ -19,7 +19,12 @@ header{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+<<<<<<< HEAD
     top: 0;
+=======
+
+
+>>>>>>> 175637eebed4a41972b91acfa8451a248247105e
 }
 .colors{
     border: 1px solid #979797;
@@ -39,7 +44,7 @@ header{
 .two-boxes-box{
     height: 300px;
     width: calc(50% - 10px);
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
 
 .left-box{
@@ -80,5 +85,14 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 10px;
+    }
+
+    #box1{
+      margin-top: 100px;
+    }
+
+    footer{
+      margin-top: 10px;
     }
 }
