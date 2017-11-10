@@ -1,7 +1,7 @@
 * {
     margin: 0;
-    padding: 0; 
-    box-sizing: border-box; 
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container{
@@ -19,8 +19,8 @@ header{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    
-    
+
+
 }
 .colors{
     border: 1px solid #979797;
@@ -40,7 +40,7 @@ header{
     margin-top: 100px;
     height: 300px;
     width: calc(50% - 10px);
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
 
 .left-box{
@@ -79,5 +79,14 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 10px;
+    }
+
+    #box1{
+      margin-top: 100px;
+    }
+
+    footer{
+      margin-top: 10px;
     }
 }
