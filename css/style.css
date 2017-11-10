@@ -19,12 +19,7 @@ header{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-<<<<<<< HEAD
     top: 0;
-=======
-
-
->>>>>>> 175637eebed4a41972b91acfa8451a248247105e
 }
 .colors{
     border: 1px solid #979797;
