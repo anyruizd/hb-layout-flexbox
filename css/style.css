@@ -19,8 +19,7 @@ header{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    
-    
+    top: 0;
 }
 .colors{
     border: 1px solid #979797;
@@ -30,6 +29,7 @@ header{
 .box-container{
     max-width: 1024;
     width: 100%;
+    margin-top: 100px;
 }
 
 .boxes-containers{
@@ -37,7 +37,6 @@ header{
 }
 
 .two-boxes-box{
-    margin-top: 100px;
     height: 300px;
     width: calc(50% - 10px);
     margin-bottom: 20px;   
@@ -49,7 +48,7 @@ header{
 
 .three-boxes-box{
     height: 120px;
-    width:  calc(33.333333% - 10px);
+    width:  calc(100%/3 - 10px);
     margin-bottom: 20px;
 }
 
@@ -76,6 +75,8 @@ footer{
     }
     .two-boxes-box, .three-boxes-box{
         width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
