@@ -1,0 +1,41 @@
+.box-container{
+	max-width: $main-width;
+	width: 100%;
+	margin-top: 100px;
+}
+
+.boxes-containers{
+	display: flex;
+	margin-bottom: $main-spacing;
+	@include at-media-query-width{
+		flex-direction: column;
+	}
+}
+
+.two-boxes-box{
+	height: 300px;
+	width: 100%;
+	margin-right: $main-spacing;
+	@include at-media-query-width{
+		width: 100%;
+		margin-bottom: $main-spacing;
+	}
+}
+
+.two-boxes-box:last-child{
+	margin-right: 0;
+}
+
+
+.three-boxes-box{
+	height: 120px;
+	width:  100%;
+	margin-right: $main-spacing;
+	@include at-media-query-width{
+		margin-bottom: $main-spacing;
+	}
+}
+
+.three-boxes-box:last-child{
+	margin-right: 0;
+}

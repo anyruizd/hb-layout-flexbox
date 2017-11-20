@@ -1,0 +1,5 @@
+@mixin at-media-query-width{
+  @media (max-width: $media-query-width) {
+    @content;
+  }
+}
