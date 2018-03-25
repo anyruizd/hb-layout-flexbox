@@ -12,7 +12,7 @@
     "stylelint-scss": "^2.1.0"
   },
   "scripts": {
-    "build": "npm run lint && node-sass src/styles/index.scss src/style.css --output-style compressed",
+    "build": "npm run lint && node-sass src/styles/index.scss docs/style.css --output-style compressed",
     "lint": "stylelint 'src/styles/**/*.scss' --config .stylelintrc --syntax scss",
     "start": "npm run build -- -w --source-map true",
     "precommit": "npm run lint"
